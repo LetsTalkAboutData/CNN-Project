@@ -1,6 +1,6 @@
 # 🧠 Handwritten Digit Recognition with CNN | Week 8 - Let's Talk About Data
 
-This is **Week 8** of the **Weekly Data Science Projects** series on the [Let's Talk About Data](https://www.youtube.com/@letstalkaboutdata) channel.
+This is **Week 8** of the **Weekly Data Science Projects** series on the [Let's Talk About Data](https://www.youtube.com/@letstalkaboutdata-ltad) channel.
 
 In this project, we build a **Convolutional Neural Network (CNN)** using Python and TensorFlow/Keras to recognize **handwritten digits** from the **MNIST dataset**.
 
@@ -58,9 +58,11 @@ Input Layer (28x28 grayscale image)
    cd cnn-project
 
 2. **Install dependencies**
-  pip install -r requirements.txt 
+   ```bash
+   pip install -r requirements.txt 
    
 3. **Run the notebook or script**
-  jupyter notebook 'Handwritten Digit Recognition using CNN.ipynb'
+   ```bash
+  jupyter notebook "Handwritten Digit Recognition using CNN.ipynb"
 
 
