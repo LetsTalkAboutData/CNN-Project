@@ -38,3 +38,29 @@ In this project, we build a **Convolutional Neural Network (CNN)** using Python 
 
 ## 📊 Model Architecture
 
+Input Layer (28x28 grayscale image)
+→ Conv2D Layer
+→ MaxPooling Layer
+→ Conv2D Layer
+→ MaxPooling Layer
+→ Flatten
+→ Dense (128 units, ReLU)
+→ Output Dense Layer (10 units, Softmax)
+
+
+---
+
+## 🚀 How to Run
+
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/letstalkaboutdata.com/cnn-project
+   cd cnn-project
+
+2. **Install dependencies**
+  pip install -r requirements.txt 
+   
+3. **Run the notebook or script**
+  jupyter notebook 'Handwritten Digit Recognition using CNN.ipynb'
+
+
